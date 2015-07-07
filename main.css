@@ -1,0 +1,56 @@
+body {
+  padding-top: 30px;
+}
+
+.guess_box {
+
+  height: 200px;
+  border: 3px solid #654321;
+  text-align: right;
+}
+
+
+h2 {
+
+}
+
+p {
+
+}
+
+tr .light {
+    background-color: #987654;
+}
+
+.border {
+  border: 5px dotted #102938;
+}
+
+.div-box {
+  padding: 10px;
+  background-color: goldenrod;
+  width: 250px;
+  height: 255px;
+  color: #fff;
+  border: 5px solid #654321;
+  margin: 10px 0;
+
+  cursor: pointer;
+}
+
+.hover {
+  border: 3px solid tomato;
+}
+
+.no_hover {
+  border: 3px solid white;
+}
+
+.my_hover {
+    border: 5px solid lightsalmon;
+}
+
+.enlarge {
+    font-size: 24px;
+    font-weight: bold;
+}

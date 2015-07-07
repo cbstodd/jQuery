@@ -1,0 +1,19 @@
+.face img {
+    /*max-height: 150px;*/
+    position: relative;
+    float: left;
+    z-index: 0;
+    /*border: 3px solid yellowgreen;*/
+    /*margin: 0 5px;*/
+}
+
+.pic-box {
+    position: relative;
+}
+
+.frame {}
+
+.frame img {
+    max-height: 150px;
+    /*display: none;*/
+}

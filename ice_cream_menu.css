@@ -1,0 +1,15 @@
+.menu_list_hover {
+    border-bottom: 1px solid darksalmon;
+    border-top: 1px solid darkgray;
+    color: #000000;
+    border-radius: 7px;
+
+}
+
+.menu_list {
+    background-color: #ffffff;
+    color: #000;
+
+
+}
+
