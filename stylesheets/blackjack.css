@@ -1,0 +1,13 @@
+#controls {
+  clear: both;
+}
+
+.well {
+  background-color: darkolivegreen !important;
+  padding: 100px!important;
+}
+
+.current_hand {
+  float: left;
+}
+

@@ -93,12 +93,12 @@ $(document).ready(function(){
 
     /* Add or subtract more and less using css and animate */
     $('#clickMe').click(function () {
-        $('p').css({fontSize: "+=5px"});
+        $('p').css({fontSize: "+=5px"}, 1000);
 
     });
 
     $('#restoreMe').click(function(){
-        $('p').animate({fontSize: "-=5px"});
+        $('p').animate({fontSize: "-=5px"}, 1000);
     });
 
 });  //End jQuery function
