@@ -1,19 +1,59 @@
-.face img {
+/*.face img {*/
     /*max-height: 150px;*/
-    position: relative;
-    float: left;
-    z-index: 0;
+    /*position: relative;*/
+    /*float: left;*/
+    /*z-index: 0;*/
     /*border: 3px solid yellowgreen;*/
     /*margin: 0 5px;*/
-}
+/*}*/
 
-.pic-box {
-    position: relative;
-}
+/*.pic-box {*/
+    /*position: relative;*/
+/*}*/
 
 .frame {}
 
 .frame img {
-    max-height: 150px;
+    max-width: 150px;
     /*display: none;*/
 }
+
+/*#bull {*/
+  /*position: absolute;*/
+  /*left: 0px;*/
+/*}*/
+
+/*#lab {*/
+  /*position: absolute;*/
+  /*left: 150px;*/
+/*}*/
+
+/*#pom {*/
+  /*position: absolute;*/
+  /*left: 300px;*/
+/*}*/
+
+/*#dach {*/
+  /*position: absolute;*/
+  /*left: 450px;*/
+/*}*/
+
+/*#bull-ad {*/
+  /*z-index: 0;*/
+/*}*/
+
+/*#lab-ad {*/
+  /*z-index: 0;*/
+/*}*/
+
+/*#pom-ad {*/
+  /*z-index: 0;*/
+/*}*/
+
+/*#dach-ad {*/
+  /*z-index: 0;*/
+/*}*/
+
+/*#bull-pup {*/
+  /*z-index: 1;*/
+/*}*/

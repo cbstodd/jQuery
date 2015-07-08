@@ -64,14 +64,41 @@ $(document).ready(function(){
 
 
   /* Animate */
-  $("#clickMe").click(function () {
-    $("h1").animate({fontSize:"5px"}, 500);
-  });
+  //$("#clickMe").click(function () {
+  //  $("h1").animate({
+  //      fontSize: "20px",
+  //      opacity: 0,
+  //      fontWeight: "normal"
+  //  }, 1000);
+  //
+  //    $("p").animate({
+  //        fontSize: "15px",
+  //        color: 'yellow'
+  //    }, 1500);
+  //});
+  //
+  //$("#restoreMe").click(function () {
+  //  $("h1").animate({
+  //      fontSize:"63px",
+  //      opacity: 1,
+  //      fontWeight: "bold"
+  //  }, 500);
 
-  $("#restoreMe").click(function () {
-    $("h1").animate({fontSize:"63px"}, 500);
-  });
+      //$("p").animate({
+      //    fontSize: "21px",
+      //    color: "black"
+      //}, 500);
+  //});
 
 
+    /* Add or subtract more and less using css and animate */
+    $('#clickMe').click(function () {
+        $('p').css({fontSize: "+=5px"});
+
+    });
+
+    $('#restoreMe').click(function(){
+        $('p').animate({fontSize: "-=5px"});
+    });
 
 });  //End jQuery function
